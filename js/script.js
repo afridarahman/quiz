@@ -12,3 +12,62 @@ $(document).ready(function() {
     });
 
 });
+function catDog (animal) {
+    if (animal === "Dogs") {
+        return 10
+    }
+    else if (animal === "Cats") {
+        return 5
+    }
+    else {
+        return 0
+    }
+}
+function cakePie (dessert) {
+    if (dessert === "Cake") {
+        return 10
+    }
+    else if (dessert === "Pie") {
+        return 5
+    }
+    else {
+        return 0
+    }
+}
+function music (type) {
+    if (type === "Alternative") {
+        return 10
+    }
+    else if (type === "Jazz") {
+        return 7
+    }
+    else if (type === "Rock") {
+        return 5
+    }
+    else if (type === "Pop") {
+        return 3
+    }
+    else {
+        return 0
+    }
+}
+function subject (favorite) {
+    if (favorite === "English") {
+        return 10
+    }
+    else if (favorite === "Science") {
+        return 7
+    }
+    else if (favorite === "History") {
+        return 5
+    }
+    else if (favorite === "Religion") {
+        return 3
+    }
+    else if (favorite === "Music") {
+        return 1
+    }
+    else {
+        return 0
+    }
+}
